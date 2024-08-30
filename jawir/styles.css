@@ -1,0 +1,43 @@
+.kalkulator {
+    width: 312px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 5px solid #7cb9be;
+    padding: 10px;
+    border-radius: 2%;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .input {
+    display: block;
+    justify-content: space-between;
+  }
+  
+  .operator {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 0px;
+  }
+  
+  .hasil {
+    width: 300px;
+    height: 40px;
+    border: 1px solid;
+    padding: 5px;
+    box-sizing: border-box;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  output {
+    font-size: 24px;
+  }
+  

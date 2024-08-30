@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Kalkulator </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="kalkulator">
+    <h1>Kalkulator </h1>
+    <table border="1" style="border-collapse: collapse;" cellpadding="5px">
+    <div class="input">
+
+      <tr><td><a>x</a>
+      <input type="text" id="input1" placeholder="Nilai 1"></td></tr>
+      <tr><td><a>y</a>
+      <input type="text" id="input2" placeholder="Nilai 2"></td></tr>
+
+    <tr><td><a>hasil</a>
+    <div class="hasil">
+        <output id="hasil"></output></td></tr>
+    </div>
+    
+    <tr><td class="operator">
+      <input type="button" onclick="tambah()" value="+">
+      <input type="button" onclick="kurang()" value="-">
+      <input type="button" onclick="kali()" value="x">
+      <input type="button" onclick="bagi()" value="/">
+    </td></tr>
+    </table>
+  </div>
+  </body>
+
+  <script src="script.js"></script>
+
+</html>
